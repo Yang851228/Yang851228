@@ -19,5 +19,5 @@ const Profolio = () => {
         </div>
     )
 }
- 
+
 export default Profolio;
