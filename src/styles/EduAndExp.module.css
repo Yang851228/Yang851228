@@ -1,0 +1,44 @@
+.subTitle {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.education {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.experience {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+.experience div {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.leftColumn {
+  flex: 1;
+  min-width: 0;
+}
+.rightColumn {
+  flex: 1;
+  min-width: 0;
+}
+.rightColumn ol {
+    text-align: left;
+    font-size: 16px;
+}
+.CKI{
+    padding: 5px;
+}
+.KGI{
+    padding: 5px;
+}
+.CRIF{
+    padding: 5px;
+}

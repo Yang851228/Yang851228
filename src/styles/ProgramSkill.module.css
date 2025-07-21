@@ -1,0 +1,53 @@
+.programmingContainer {
+    padding-left: 450px;
+}
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.columnStyle {
+    padding: 5px;
+}
+.columnFontStyle {
+    font-size: 20px;
+    color: black;
+}
+.bar {
+    width: 70%;
+    background: #e0e0e0;
+    height: 20px;
+    border-radius: 2px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.javaBar {
+    width: 80%;
+    background: #181818;
+    height: 100%;
+    border-radius: 2px;
+}
+.sqlBar {
+    width: 80%;
+    background: #181818;
+    height: 100%;
+    border-radius: 2px;
+}
+.jspBar {
+    width: 70%;
+    background: #181818;
+    height: 100%;
+    border-radius: 2px;
+}
+.reactBar {
+    width: 60%;
+    background: #181818;
+    height: 100%;
+    border-radius: 2px;
+}
+.pythonBar {
+    width: 30%;
+    background: #181818;
+    height: 100%;
+    border-radius: 2px;
+}

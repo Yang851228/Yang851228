@@ -1,0 +1,35 @@
+.mainContent {
+  padding-top: 120px;
+}
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.content p{
+    text-align: center;
+}
+.resumeDiv{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.resumeDownload {
+  background-color: #181818;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+.resumeDownload:hover {
+  background-color: #5c5a5a;
+}
