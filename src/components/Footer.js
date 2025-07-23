@@ -7,9 +7,9 @@ const Footer = () => {
             <div className={styles.sbFooter + " " + styles.sectionPadding}>
                 <div className={styles.sbFooterLinks}>
                     <div className={styles.sbFooterAbout}> 
-                        <h3>我的聯絡資訊</h3>
-                        <p>我的Email: sam303643@gmail.com</p>
-                        <p>我的手機: 0928-820-962</p>
+                        <h2>聯絡資訊</h2>
+                        <p>Email: sam303643@gmail.com</p>
+                        <p className={styles.phoneNumber}>手機號碼: 0928-820-962</p>
                     </div>
                 </div>
             </div>
