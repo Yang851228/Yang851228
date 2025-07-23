@@ -15,8 +15,13 @@ const EduAndExp = () => {
                     <div className={styles.educationPeriod}>2015.09 - 2019.06</div>
                     <div className={styles.educationBachelor}>淡江大學 風險管理與保險系 | <br/> 學士</div>
                 </div>
+                <div className={styles.education}>
+                    <div className={styles.educationPeriod}>2024.06 - 2024.10</div>
+                    <div className={styles.educationBachelor}>文化大學Java工程師養成班 | <br/> 進修 - 學員</div>
+                </div>
             </div>
         </div>
+        <hr className={styles.sectionDivider} />
         <div className={styles.experienceContainer}>
             <div className={styles.experienceLeftColumn}>
                 <div className={styles.subTitle}>
@@ -50,14 +55,20 @@ const EduAndExp = () => {
                     <div className={styles.experienceContent}>
                         <div>仁維軟體科技有限公司 | </div>
                         <div>全端工程師</div>
-                        <ol>
-                            <li>IBM BAW系統安裝及升級，以提升客戶效能，提高客戶使用者體驗</li>
-                            <li>為因應客戶保單照會客製化需求，故增加IBM BAW 流程設計，以滿足客戶需求</li>
-                            <li>為達成客戶要求的資安規格，有進行WebSphere TLSv1.2升級，以符合法規要求</li>
-                            <li>負責與用戶確認需求，開發多項後台與前台功能，如計數器設計、難字系統API串接、退費流程客製化系統開發等</li>
-                            <li>支援核心系統同步作業，包括電訪抽樣比例調整、退費資訊同步核心系統等</li>
-                        </ol>
-                        <div className={styles.technique}>使用技術:  Java、Spring、Spring Boot、Hibernate、JSP、HTML、CSS、JavaScript、jQuery、Ajax、MS SQL Server、WebSphere、IBM BPM、JPA、MS Office</div>
+                        <div className={styles.experienceContentDetail}>
+                            <div>工作項目:</div>
+                            <ol>
+                                <li>IBM BAW 系統安裝及升級</li>
+                                <li>IBM BAW 系統流程設計</li>
+                                <li>WebSphere Server TLSv1.2升級</li>
+                                <li>與用戶確認需求後，進行開發項目，如計數器設計、難字系統API串接、退費流程客製化系統開發等</li>
+                                <li>同步客戶核心系統作業，包括電訪抽樣比例調整、退費資訊同步核心系統等</li>
+                            </ol>
+                            <div className={styles.technique}>
+                                <div>使用技術:</div>
+                                <div>Java、Spring、Spring Boot、Hibernate、JSP、HTML、CSS、JavaScript、jQuery、Ajax、MS SQL Server、WebSphere、IBM BPM、JPA、MS Office</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

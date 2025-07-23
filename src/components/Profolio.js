@@ -44,7 +44,7 @@ const Profolio = () => {
                             <img src="/assests/image/Portfolio-1.jpg" className={styles.photo} alt=""/>
                             <div className={styles.overlay}>
                                 <div className={styles.titleH4}>
-                                    <h4>理財管家</h4>
+                                    <h4>點擊進入: <br/>理財管家</h4>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const Profolio = () => {
                             <img src="/assests/image/Portfolio-2.png" className={styles.photo} alt=""/>
                             <div className={styles.overlay}>
                                 <div className={styles.titleH4}>
-                                    <h4>電影院-購物車</h4>
+                                    <h4>點擊進入: <br/>電影院-購物車</h4>
                                 </div>
                             </div>
                         </div>
