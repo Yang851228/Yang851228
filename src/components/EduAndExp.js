@@ -65,8 +65,8 @@ const EduAndExp = () => {
                                 <li>同步客戶核心系統作業，包括電訪抽樣比例調整、退費資訊同步核心系統等</li>
                             </ol>
                             <div className={styles.technique}>
-                                <div>使用技術:</div>
-                                <div>Java、Spring、Spring Boot、Hibernate、JSP、HTML、CSS、JavaScript、jQuery、Ajax、MS SQL Server、WebSphere、IBM BPM、JPA、MS Office</div>
+                                <div className={styles.techniqueTitle}>使用技術:</div>
+                                <div>Java、Spring、Spring Boot、Hibernate、JPA、JSP、HTML、CSS、JavaScript、jQuery、Ajax、MS SQL Server、WebSphere、IBM BPM、IBM ODM、MS Office</div>
                             </div>
                         </div>
                     </div>

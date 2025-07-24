@@ -20,10 +20,10 @@ const Header = () => {
                 <li><Link to="/OrderList">關於我</Link></li>
                 <li><Link to="/about">作品集</Link></li> */}
                 {/* <li>首頁</li> */}
-                <li><a href="#aboutMe">關於我</a></li>
+                <li><a href="#aboutMe" onClick={handlePortfolioClick}>關於我</a></li>
                 <li><a href="#profolio" onClick={handlePortfolioClick}>作品集</a></li>
                 <li><a href="https://github.com/Yang851228">Github</a></li>
-                <li><a href="#footer">聯絡我</a></li>
+                <li><a href="#footer" onClick={handlePortfolioClick}>聯絡我</a></li>
                 <li>繁體中文/ENG</li>
             </ul>
         </div>

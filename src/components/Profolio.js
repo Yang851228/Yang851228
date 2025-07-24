@@ -74,8 +74,11 @@ const Profolio = () => {
 
             {financialModal && (
                 <div className={styles.modalOverlay} onClick={closeAllModals}>
-                    <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+                    <div className={styles.FinancialModalContent} onClick={(e) => e.stopPropagation()}>
                         <span onClick={closeAllModals} className={styles.closeButton}>×</span>
+                        <div className={styles.FinancialLogoContainer}>
+                            <img src={`${process.env.PUBLIC_URL}/assests/image/FinancialLogo.png`} className={styles.FinancialLogo} alt=""/>
+                        </div>
                         <div>
                             <h2>負責項目</h2>
                         </div>
@@ -91,7 +94,7 @@ const Profolio = () => {
                                 <li>後端 - LinePay API串接</li>
                             </ol>
                         </div>
-                        <div className={styles.projectLink}>
+                        <div className={styles.financialProjectLink}>
                             <a href="https://github.com/financialhousekeeper/.github" target="_blank" rel="noopener noreferrer">前往Github查看專案</a>
                         </div>
                     </div>
@@ -100,8 +103,11 @@ const Profolio = () => {
 
             {movieModal && (
                 <div className={styles.modalOverlay} onClick={closeAllModals}>
-                    <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
+                    <div className={styles.movieModalContent} onClick={(e) => e.stopPropagation()}>
                         <span onClick={closeAllModals} className={styles.closeButton}>×</span>
+                        <div className={styles.MovieLogoContainer}>
+                            <img src={`${process.env.PUBLIC_URL}/assests/image/MovieLogo.png`} className={styles.MovieLogo} alt=""/>
+                        </div>
                         <div>
                             <h2>負責項目</h2>
                         </div>
@@ -113,7 +119,7 @@ const Profolio = () => {
                                 <li>後端 - LinePay API串接</li>
                             </ol>
                         </div>
-                        <div className={styles.projectLink}>
+                        <div className={styles.movieProjectLink}>
                             <a href="https://github.com/happy010203/ConcertProject" target="_blank" rel="noopener noreferrer">前往Github查看專案</a>
                         </div>
                     </div>

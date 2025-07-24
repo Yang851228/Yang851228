@@ -31,6 +31,24 @@
     width: 200px;
     height: 200px;
 }
+.FinancialLogoContainer{
+  display: flex;
+  justify-content: center;
+}
+.FinancialLogo{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.MovieLogoContainer{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+}
+.MovieLogo{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+}
 .overlay {
   position: absolute;
   top: 0;
@@ -89,20 +107,48 @@
   align-items: center;
   z-index: 1000;
 }
-.modalContent {
+.FinancialModalContent {
   background: white;
   padding: 2rem;
   border-radius: 8px;
   width: 80%;
   max-width: 800px;
-  height: 400px;
+  height: 800px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-.projectLink {
+.movieModalContent {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 800px;
+  height: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.financialProjectLink {
   text-align: center;
   margin-top: 50px;
 }
-.projectLink a {
+.financialProjectLink a {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2071F7;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.financialProjectLink a:hover {
+  background-color: #3e5a8bc4;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.movieProjectLink {
+  text-align: center;
+  margin-top: 50px;
+}
+.movieProjectLink a {
   display: inline-block;
   padding: 12px 24px;
   background-color: #000000;
@@ -112,7 +158,7 @@
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
-.projectLink a:hover {
+.movieProjectLink a:hover {
   background-color: #808388;
   transform: translateY(-3px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);

@@ -68,11 +68,17 @@
 .experienceContentDetail{
     text-align: left;
     font-weight: normal;
+    margin-top: 10px;
+}
+.experienceContentDetail ol{
     margin-top: 5px;
 }
 .technique {
   text-align: left;
   font-weight: normal;
+}
+.techniqueTitle {
+  margin-bottom: 5px;
 }
 .CKI{
     display: flex;
