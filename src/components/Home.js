@@ -15,7 +15,7 @@ const Home = () => {
         <div id="aboutMe">
 
           <div className={styles.photoContainer}>
-          <img src="/assests/image/Home.jpg" className={styles.photo} alt=""/>
+          <img src={`${process.env.PUBLIC_URL}/assests/image/Home.jpg`} className={styles.photo} alt=""/>
           <div className={styles.name}>
               <h1>蕭揚 Shuan</h1>
               <div>
