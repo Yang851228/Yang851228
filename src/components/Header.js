@@ -50,7 +50,7 @@ const Header = () => {
                 <li><a href="#profolio" onClick={handlePortfolioClick}>作品集</a></li>
                 <li><a href="https://github.com/Yang851228">Github</a></li>
                 <li><a href="#footer" onClick={handleFooterClick}>聯絡我</a></li>
-                <li>繁體中文/ENG</li>
+                <li>繁體中文/ENG(尚未開放)</li>
             </ul>
         </div>
     );

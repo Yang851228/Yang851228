@@ -16,6 +16,7 @@
     flex-direction: column;
     color: rgb(0, 0, 0);
     white-space: nowrap; /* 禁止文字換行 */
+    font-size: 20px;
 }
 .sbFooterAbout h2 {
     margin-top: -10px;

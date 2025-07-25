@@ -31,7 +31,7 @@ const Profolio = () => {
     }, []);
 
     return (
-        <div className={styles.profolioContainer}>
+        <div className={styles.profolioContainer} id="profolio">
             <div className={styles.profolioLeftColumn}>
                 <div className={styles.title}>
                     <h1>專案作品集</h1>

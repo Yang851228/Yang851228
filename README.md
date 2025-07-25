@@ -3,12 +3,12 @@
 ## 專案簡介
 
 這是一個用於 GitHub 個人自介／履歷的專案，內容包含：
-．簡單自我介紹、學歷、經歷、技能、專案作品
+- 簡單自我介紹、學歷、經歷、技能、專案作品
 
 ## 技能
 
-．前端開發：React.js, CSS/SCSS, JavaScript
-．其他：Git 版本控管、Markdown 文檔撰寫
+- 前端開發：React.js, CSS/SCSS, JavaScript
+- 其他：Git 版本控管、Markdown 文檔撰寫
 
 
 ## 聯繫方式
