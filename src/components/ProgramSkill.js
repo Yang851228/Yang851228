@@ -7,7 +7,7 @@ const ProgramSkill = () => {
         <div className={styles.programmingContainer}>
             <div className={styles.programmingLeftColumn}>
                 <div className={styles.title}>
-                    <h2>程式語言技能表</h2>
+                    <h1>程式語言技能表</h1>
                 </div>
             </div>
             <div className={styles.programmingRightColumn}>

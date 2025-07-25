@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 .profolioRightColumn{
-  width: 52.5%; 
+  width: 62%; 
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -83,7 +83,9 @@
     font-weight: bold;
 }
 .firstInnerRightColumn{
-    width: 72.5%; 
+    margin-right: 2vw;
+    margin-left: 2vw;
+    width: 100%; 
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -93,7 +95,7 @@
   margin-bottom: 0px;
 }
 .firstInnerRightColumn p{
- font-size: 18px;
+ font-size: 20px;
 }
 .modalOverlay {
   position: fixed;
@@ -116,6 +118,9 @@
   height: 800px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+.FinancialModalContent ol{
+  font-size: 19px;
+}
 .movieModalContent {
   background: white;
   padding: 2rem;
@@ -124,6 +129,9 @@
   max-width: 800px;
   height: 600px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.movieModalContent ol{
+  font-size: 20px;
 }
 .financialProjectLink {
   text-align: center;

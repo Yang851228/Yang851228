@@ -7,7 +7,7 @@ const EduAndExp = () => {
         <div className={styles.educationContainer}>
             <div className={styles.educationLeftColumn}>
                 <div className={styles.subTitle}>
-                    <h2>學歷</h2>
+                    <h1>學歷</h1>
                 </div>
             </div>
             <div className={styles.educationrRightColumn}>
@@ -25,7 +25,7 @@ const EduAndExp = () => {
         <div className={styles.experienceContainer}>
             <div className={styles.experienceLeftColumn}>
                 <div className={styles.subTitle}>
-                    <h2>工作經驗</h2>
+                    <h1>工作經驗</h1>
                 </div>
             </div>
             <div className={styles.experienceRightColumn}>
@@ -56,7 +56,7 @@ const EduAndExp = () => {
                         <div>仁維軟體科技有限公司 | </div>
                         <div>全端工程師</div>
                         <div className={styles.experienceContentDetail}>
-                            <div>工作項目:</div>
+                            <div>● 工作項目:</div>
                             <ol>
                                 <li>IBM BAW 系統安裝及升級</li>
                                 <li>IBM BAW 系統流程設計</li>
@@ -65,7 +65,7 @@ const EduAndExp = () => {
                                 <li>同步客戶核心系統作業，包括電訪抽樣比例調整、退費資訊同步核心系統等</li>
                             </ol>
                             <div className={styles.technique}>
-                                <div className={styles.techniqueTitle}>使用技術:</div>
+                                <div className={styles.techniqueTitle}>● 使用技術:</div>
                                 <div>Java、Spring、Spring Boot、Hibernate、JPA、JSP、HTML、CSS、JavaScript、jQuery、Ajax、MS SQL Server、WebSphere、IBM BPM、IBM ODM、MS Office</div>
                             </div>
                         </div>

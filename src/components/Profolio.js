@@ -34,7 +34,7 @@ const Profolio = () => {
         <div className={styles.profolioContainer}>
             <div className={styles.profolioLeftColumn}>
                 <div className={styles.title}>
-                    <h2>專案作品集</h2>
+                    <h1>專案作品集</h1>
                 </div>
             </div>
             <div className={styles.profolioRightColumn}>
@@ -50,7 +50,7 @@ const Profolio = () => {
                         </div>
                     </div>
                     <div className={styles.firstInnerRightColumn}>
-                        <h4>理財管家</h4>
+                        <h3>理財管家</h3>
                         <p>財務管家是一款個人財務管理應用，旨在幫助用戶追蹤和管理消費，設置財務目標，並根據個人需求提供 AI 分析與建議。透過自動化的消費數據整合與投資策略生成，用戶可以更直觀地掌握財務狀況，並制定短期與長期的財務規劃</p>
                     </div>
                 </div>
@@ -66,7 +66,7 @@ const Profolio = () => {
                         </div>
                     </div>
                     <div className={styles.firstInnerRightColumn}>
-                        <h4>電影院-購物車</h4>
+                        <h3>電影院-購物車</h3>
                         <p>此專案為實作電影購票頁面，包含電影首頁、登入、註冊、購買電影票並劃位、購物車、第三方登入、第三方支付(綠界、LinePay)、管理員系統等，旨在提升使用者購票頁面</p>
                     </div>
                 </div>

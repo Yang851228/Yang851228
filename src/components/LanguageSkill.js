@@ -7,7 +7,7 @@ const LanguageSkill = () => {
         <div className={styles.languageContainer}>
             <div className={styles.languageLeftColumn}>
                 <div className={styles.title}>
-                    <h2>語言表</h2>
+                    <h1>語言表</h1>
                 </div>
             </div>
             <div className={styles.languageRightContainer}>

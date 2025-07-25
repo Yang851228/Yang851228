@@ -12,8 +12,7 @@ const Home = () => {
     <div>
       <Header/>
       <div className={styles.mainContent}>
-        <div id="aboutMe">
-
+        <div>
           <div className={styles.photoContainer}>
           <img src={`${process.env.PUBLIC_URL}/assests/image/Home.jpg`} className={styles.photo} alt=""/>
           <div className={styles.name}>
@@ -24,11 +23,10 @@ const Home = () => {
           </div>
           {/* <img src={`${process.env.PUBLIC_URL}/assests/image/Shuan.png`} className={styles.ShuanPhote} alt=""/> */}
           </div>
-
-          <div className={styles.aboutMe}>
+          <div className={styles.aboutMe} id="aboutMe">
             <div className={styles.aboutMeLeftColumn}>
               <div className={styles.title}>
-                <h2>關於我</h2>
+                <h1>關於我</h1>
               </div>
             </div>
             <div className={styles.aboutMeRightColumn}>

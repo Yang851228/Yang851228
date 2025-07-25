@@ -9,7 +9,7 @@
     font-weight: bold;
 }
 .programmingRightColumn{
-    width: 52.5%; 
+    width: 62%; 
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
