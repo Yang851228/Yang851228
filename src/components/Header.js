@@ -19,6 +19,7 @@ const Header = () => {
 
     // 跳轉至profolio
     const handlePortfolioClick = (e) => {
+        e.preventDefault();
         const profolio = document.getElementById('profolio');
         const headerHeight = document.getElementById('header').offsetHeight;
         if (profolio) {

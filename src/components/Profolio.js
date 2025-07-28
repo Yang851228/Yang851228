@@ -18,7 +18,7 @@ const Profolio = () => {
         setFinancialModal(false);
         setMovieModal(false);
     };
-
+     
     // 允許ESC鍵關閉彈窗
     useEffect(() => {
         const handleEsc = (event) => {

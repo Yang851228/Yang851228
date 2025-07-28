@@ -46,12 +46,8 @@ const Home = () => {
         <hr className={styles.sectionDivider} />
         <LanguageSkill/>
         <hr className={styles.sectionDivider} />
-        <div id="profolio">
-          <Profolio/>
-        </div>
-        <div id="footer">
-          <Footer/>
-        </div>
+        <Profolio/>
+        <Footer/>
       </div>
     </div>
   );
