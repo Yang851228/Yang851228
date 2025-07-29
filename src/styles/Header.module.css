@@ -25,6 +25,9 @@ ul li {
     font-weight: bold;
     cursor: pointer;
 }
+ul li:hover {
+    color: #95a8aa;
+}
 ul li a {
     text-decoration: none;
     color: #070707;

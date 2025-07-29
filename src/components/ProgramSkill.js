@@ -1,13 +1,21 @@
 import React from 'react';
 import styles from '../styles/ProgramSkill.module.css';
 
-const ProgramSkill = () => {
+const ProgramSkill = ({ lang }) => {
+    const translations = {
+        zh: {
+            programSkill: '程式語言技能表',
+        },
+        en: {
+            programSkill: 'Programming Skill',
+        }
+    };
     
     return (
         <div className={styles.programmingContainer}>
             <div className={styles.programmingLeftColumn}>
                 <div className={styles.title}>
-                    <h1>程式語言技能表</h1>
+                    <h1>{translations[lang].programSkill}</h1> {/*程式語言技能表*/}
                 </div>
             </div>
             <div className={styles.programmingRightColumn}>

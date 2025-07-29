@@ -2,7 +2,27 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 import styles from '../styles/Header.module.css';
 
-const Header = () => {
+const Header = ({ lang, onLangChange }) => {
+    const translations = {
+        en: {
+            aboutMe: 'About Me',
+            profolio: 'Portfolio',
+            footer: 'Contact Me',
+            language: 'ZH/ENG',
+        },
+        zh: {
+            aboutMe: '關於我',
+            profolio: '作品集',
+            footer: '聯絡我',
+            language: '繁體中文/ENG',
+        }
+    };
+
+    // 切換語言模式
+    const toggleLang = () => {
+        onLangChange(lang === 'zh' ? 'en' : 'zh');
+    };
+
     // 跳轉至aboutMe
     const handleAboutMeClick = (e) => {
         e.preventDefault();
@@ -47,11 +67,18 @@ const Header = () => {
                 <li><Link to="/OrderList">關於我</Link></li>
                 <li><Link to="/about">作品集</Link></li> */}
                 {/* <li>首頁</li> */}
-                <li><a href="#aboutMe" onClick={handleAboutMeClick}>關於我</a></li>
+
+                {/* <li><a href="#aboutMe" onClick={handleAboutMeClick}>關於我</a></li>
                 <li><a href="#profolio" onClick={handlePortfolioClick}>作品集</a></li>
                 <li><a href="https://github.com/Yang851228">Github</a></li>
                 <li><a href="#footer" onClick={handleFooterClick}>聯絡我</a></li>
-                <li>繁體中文/ENG(尚未開放)</li>
+                <li>繁體中文/ENG</li> */}
+
+                <li><a href="#aboutMe" onClick={handleAboutMeClick}>{translations[lang].aboutMe}</a></li>
+                <li><a href="#profolio" onClick={handlePortfolioClick}>{translations[lang].profolio}</a></li>
+                <li><a href="https://github.com/Yang851228">Github</a></li>
+                <li><a href="#footer" onClick={handleFooterClick}>{translations[lang].footer}</a></li>
+                <li onClick={toggleLang}>繁體中文/ENG</li>
             </ul>
         </div>
     );
