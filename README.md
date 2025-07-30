@@ -16,3 +16,4 @@
 如果有任何問題或建議，歡迎通過以下方式聯繫我：
 - Name：蕭揚 Shuan
 - Email: sam303643@gmail.com
+- LinkIn: [Shuan Hsiao](https://www.linkedin.com/in/yang-hsiao-1523b3110/)

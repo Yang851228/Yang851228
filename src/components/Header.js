@@ -78,7 +78,7 @@ const Header = ({ lang, onLangChange }) => {
                 <li><a href="#profolio" onClick={handlePortfolioClick}>{translations[lang].profolio}</a></li>
                 <li><a href="https://github.com/Yang851228">Github</a></li>
                 <li><a href="#footer" onClick={handleFooterClick}>{translations[lang].footer}</a></li>
-                <li onClick={toggleLang}>繁體中文/ENG</li>
+                <li onClick={toggleLang}>繁中/ENG</li>
             </ul>
         </div>
     );
