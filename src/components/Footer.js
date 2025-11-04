@@ -9,7 +9,7 @@ const Footer = ({ lang }) => {
         },
         en: {
             contact: 'Contact Me',
-            phoneNumber: 'Phone Number: +886-0928-820-962',
+            phoneNumber: 'Phone Number: +886-928-820-962',
         }
     };
 

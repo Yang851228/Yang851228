@@ -77,6 +77,11 @@
     margin-top: 5px;
     margin-right: 2vw;
 }
+.techniqueDetail {
+    margin-top: 5px;
+    margin-left: 1.5vw;
+    margin-right: 2vw;
+}
 .technique {
   text-align: left;
   font-weight: normal;

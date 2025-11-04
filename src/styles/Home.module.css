@@ -22,16 +22,15 @@
   border-radius: 0.4vw;
   z-index: 2;
 }
-.ShuanPhote{
+.ShuanPhoto{
   position: absolute;
   left: 70%;  
-  top: 67%;   
-  bottom: 5%;
+  bottom: 0;
   width: 25%;    
   max-width: 300px;
   height: auto;
   z-index: 2;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%);
 }
 .aboutMe{
   display: flex;

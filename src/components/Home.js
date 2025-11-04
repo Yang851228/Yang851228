@@ -14,13 +14,13 @@ const Home = () => {
     zh: {
       jobTitle: 'Java 工程師',
       aboutMe: '關於我',
-      aboutMeContent: '不僅擁有多年保險與財務背景，並為突破自我與提升專業，於2024年開始選擇轉職程式開發，透過積極學習新的技術，結合過往經驗，挑戰不同的職涯方向，以拓展技能版圖。',
+      aboutMeContent: '不僅擁有多年保險與財務背景，且為突破自我與提升專業，於2024年開始選擇轉職程式開發，透過積極學習新的技術，結合過往經驗，挑戰不同的職涯方向，以拓展技能版圖。並藉由持續學習與實作，致力於成為能夠以科技解決問題、創造價值的跨領域專業人才。',
       resumeDownload: '履歷下載',
     },
     en: {
       jobTitle: 'Java Developer',
       aboutMe: 'About Me',
-      aboutMeContent: 'With a solid background in insurance and finance, I made a career switch to software development in 2024 to broaden my boundaries and elevate my professional growth. By continuous learning new technologies and leveraging my past experiences, I strive to broaden my career horizons and expand my skill set.',
+      aboutMeContent: 'With several years of experience in insurance and finance, I made the decision in 2024 to transition into software development in pursuit of personal growth and professional advancement. Through proactive learning and adopting new technologies, I combine my previous expertise with technical skills to explore new career directions and broaden my capabilities. By continuously learning and gaining hands-on experience, I am dedicated to becoming a cross-disciplinary professional who leverages technology to solve problems and create value.',
       resumeDownload: 'Download Resume',
     }
   };
@@ -38,7 +38,7 @@ const Home = () => {
                 <h3>{translations[lang].jobTitle}</h3>
               </div>
             </div>
-            {/* <img src={`${process.env.PUBLIC_URL}/assests/image/Shuan.png`} className={styles.ShuanPhote} alt=""/> */}
+            {/* <img src={`${process.env.PUBLIC_URL}/assests/image/Shuan.png`} className={styles.ShuanPhoto} alt=""/> */}
           </div>
           <div className={styles.aboutMe} id="aboutMe">
             <div className={styles.aboutMeLeftColumn}>
