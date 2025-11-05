@@ -1,11 +1,11 @@
 import styles from '../styles/Home.module.css';
 import React, { useState } from 'react';
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../pages/Header';
+import Footer from '../pages/Footer';
 import ProgramSkill from './ProgramSkill';
 import LanguageSkill from './LanguageSkill';
 import Profolio from './Profolio';
-import EduAndExp from './EduAndExp';
+import EduAndExp from '../pages/EduAndExp';
 
 const Home = () => {
   const [lang, setLang] = useState('zh');
@@ -20,7 +20,7 @@ const Home = () => {
     en: {
       jobTitle: 'Java Developer',
       aboutMe: 'About Me',
-      aboutMeContent: 'With several years of experience in insurance and finance, I made the decision in 2024 to transition into software development in pursuit of personal growth and professional advancement. Through proactive learning and adopting new technologies, I combine my previous expertise with technical skills to explore new career directions and broaden my capabilities. By continuously learning and gaining hands-on experience, I am dedicated to becoming a cross-disciplinary professional who leverages technology to solve problems and create value.',
+      aboutMeContent: 'With several years of experience in insurance and finance, I made the decision in 2024 to transition into software development in pursuit of personal growth and professional advancement. Through proactive learning and adopting new technologies, I combine my previous expertise with technical skills to explore new career directions and broaden my capabilities. By continuously learning and gaining hands-on experience, I am committed to becoming a cross-disciplinary professional who leverages technology to solve problems and create value.',
       resumeDownload: 'Download Resume',
     }
   };
