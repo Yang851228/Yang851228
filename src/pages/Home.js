@@ -15,13 +15,15 @@ const Home = () => {
       jobTitle: 'Java 工程師',
       aboutMe: '關於我',
       aboutMeContent: '不僅擁有多年保險與財務背景，且為突破自我與提升專業，於2024年開始選擇轉職程式開發，透過積極學習新的技術，結合過往經驗，挑戰不同的職涯方向，以拓展技能版圖。並藉由持續學習與實作，致力於成為能夠以科技解決問題、創造價值的跨領域專業人才。',
-      resumeDownload: '履歷下載',
+      resumeDownload: '中文履歷下載',
+      resumeEnDownload: '英文履歷下載',
     },
     en: {
       jobTitle: 'Java Developer',
       aboutMe: 'About Me',
       aboutMeContent: 'With several years of experience in insurance and finance, I made the decision in 2024 to transition into software development in pursuit of personal growth and professional advancement. Through proactive learning and adopting new technologies, I combine my previous expertise with technical skills to explore new career directions and broaden my capabilities. By continuously learning and gaining hands-on experience, I am committed to becoming a cross-disciplinary professional who leverages technology to solve problems and create value.',
-      resumeDownload: 'Download Resume',
+      resumeDownload: 'Download Chinese Resume',
+      resumeEnDownload: 'Download English Resume',
     }
   };
 
@@ -54,6 +56,7 @@ const Home = () => {
           </div>
           <div className={styles.resumeDiv}>
             <a href={`${process.env.PUBLIC_URL}/assests/document/resume.pdf`} download className={styles.resumeDownload}>{translations[lang].resumeDownload}</a>
+            <a href={`${process.env.PUBLIC_URL}/assests/document/resume_en.pdf`} download className={styles.resumeDownload}>{translations[lang].resumeEnDownload}</a>
           </div>
         </div>
         <hr className={styles.sectionDivider} />
